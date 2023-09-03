@@ -47,23 +47,28 @@ body {
 .active a {
     color: #fff !important;
 }
+
 .nav {
     flex-grow: 7;
 }
+
 .social {
     display: flex;
     flex-grow: 2;
     justify-content: space-evenly;
     align-items: center;
 }
-#band {
+
+#band,
+#tour {
     max-width: 50vw;
     margin: auto;
     padding: 70px 0px;
     text-align-last: center;
+    transition: all 1s ease-in-out;
 }
 
-.head h2{
+.head h2 {
     text-transform: uppercase;
     letter-spacing: 0.6vw;
     font-size: xx-large;
@@ -73,11 +78,36 @@ body {
     font-family: Verdana, Geneva, Tahoma, sans-serif;
     color: #47a47c81;
 }
-.intro p{
+
+.intro p {
     text-align: justify;
     text-align-last: auto;
 }
+
 .multiple-bands {
     display: flex;
     justify-content: space-between;
+}
+
+.loc-card {
+    display: flex;
+    flex-direction: column;
+    padding-bottom: 15px;
+}
+
+.locations {
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.date {
+    font-family: cursive;
+}
+
+.btn {
+    margin: 0 auto;
+    padding: 8px;
+    border-color: #0e0c1c00;
+    border-radius: 5px;
+    background-color: #e7e9cd;
 }
