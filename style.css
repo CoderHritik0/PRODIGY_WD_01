@@ -3,12 +3,13 @@ body {
 }
 
 .navbar {
-    /* background-color: rgb(255, 255, 255); */
+    color: black;
     display: flex;
     align-items: stretch;
     justify-content: space-evenly;
     width: 100%;
     position: fixed;
+    transition: all 1s linear;
 }
 
 .navbar ul {
@@ -24,19 +25,16 @@ body {
 .navbar ul li a {
     font-size: large;
     text-decoration: none;
-    color: #0e0c1c;
+    color: black;
 }
 
 .brand {
-    /* color: #fff; */
     text-align: center;
     margin: auto 0;
     flex-grow: 1;
     font-weight: 700;
     font-size: x-large;
     font-family: cursive;
-    /* margin: auto 15px;
-    padding: 0 15px; */
 }
 
 .active {
@@ -66,7 +64,7 @@ body {
     margin: auto;
     padding: 70px 0px;
     text-align-last: center;
-    transition: all 1s ease-in-out;
+    transition: all 1s linear;
 }
 
 .head h2 {
@@ -115,7 +113,6 @@ body {
 
 .contact {
     display: grid;
-    /* width: 50%; */
 }
 
 .address {
@@ -126,12 +123,15 @@ body {
 .form {
     grid-column-start: 2;
     grid-column-end: 4;
-    /* width: 100%; */
     padding: 10px;
 }
 
 .form-field {
     margin: 3px;
+}
+
+#home {
+    transition: all 1s linear;
 }
 
 #home img {
